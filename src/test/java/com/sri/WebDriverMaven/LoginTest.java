@@ -31,7 +31,7 @@ public class LoginTest {
 		driver.findElement(By.id("email")).sendKeys("sud.v@hotmail.com");
 		driver.findElement(By.name("pass")).sendKeys("555555555555555");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
-		
+		System.out.println("this is a test");
 	}
 
 	@AfterTest
